@@ -94,7 +94,7 @@ def generate(env):
     env['DFILESUFFIX'] = '.d'
     env['DIFILESUFFIX'] = '.di'
     env['DINTFDIRKEY'] = 'DINTFDIR'
-    env['DINTFDIRPREFIX'] = '-fintfc-dir='
+    env['DINTFDIRPREFIX'] = '-Hd'
     env['DINTFDIRSUFFIX'] = ''
 
     env['DLINK'] = '$DC'
